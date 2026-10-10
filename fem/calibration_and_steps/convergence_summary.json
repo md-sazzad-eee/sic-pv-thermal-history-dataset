@@ -1,0 +1,47 @@
+{
+ "note": "h=1, MOSFET-only heating 100 W/switch, k_solder=22.238 (order-2 calibration), 4th level (mesh 0.45, 3x layers) aborted after >15 min wall; order-2 stationary on mesh 1.0 gives Rth_jc=0.07499 K/W",
+ "levels": [
+  {
+   "mesh_scale": 1.6,
+   "layer_scale": 1.0,
+   "order": 1,
+   "elements": 37450,
+   "Rth_jc_mos": 0.07376,
+   "ZjM_1s": 0.10229,
+   "ZjM_100s": 0.40807,
+   "ZjM_1e4s": 0.82387,
+   "transient_wall_s": 17.0,
+   "dRth_vs_finest_pct": -1.258366800535471,
+   "dZss_vs_finest_pct": -0.21921325452959328,
+   "dZ1s_vs_finest_pct": -1.0926319860761868
+  },
+  {
+   "mesh_scale": 1.0,
+   "layer_scale": 1.0,
+   "order": 1,
+   "elements": 55850,
+   "Rth_jc_mos": 0.07426,
+   "ZjM_1s": 0.10284,
+   "ZjM_100s": 0.40861,
+   "ZjM_1e4s": 0.82452,
+   "transient_wall_s": 26.3,
+   "dRth_vs_finest_pct": -0.5890227576974549,
+   "dZss_vs_finest_pct": -0.1404902625714466,
+   "dZ1s_vs_finest_pct": -0.5608199574550388
+  },
+  {
+   "mesh_scale": 0.6,
+   "layer_scale": 2.0,
+   "order": 1,
+   "elements": 226658,
+   "Rth_jc_mos": 0.0747,
+   "ZjM_1s": 0.10342,
+   "ZjM_100s": 0.40937,
+   "ZjM_1e4s": 0.82568,
+   "transient_wall_s": 210.6,
+   "dRth_vs_finest_pct": 0.0,
+   "dZss_vs_finest_pct": 0.0,
+   "dZ1s_vs_finest_pct": 0.0
+  }
+ ]
+}

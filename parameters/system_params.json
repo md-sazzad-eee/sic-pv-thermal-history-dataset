@@ -1,0 +1,113 @@
+{
+ "_doc": "Plant, device, control and thermal parameters used to generate the dataset. Provenance of each value is given in PARAMETER_SOURCES.md.",
+ "grid": {
+  "V_LL_rms": 400.0,
+  "f_g": 50.0,
+  "L_g": 5e-05,
+  "R_g": 0.005
+ },
+ "converter": {
+  "S_rated": 100000.0,
+  "P_rated": 100000.0,
+  "Vdc_ref": 750.0,
+  "C_dc": 0.003,
+  "L1": 0.0003,
+  "R1": 0.01,
+  "C_f": 5e-05,
+  "R_d": 0.4,
+  "L2": 0.0001,
+  "R2": 0.005,
+  "fsw_nom": 10000.0,
+  "delay_samples": 1.5,
+  "m_max_linear": 1.1547
+ },
+ "control": {
+  "cc_bandwidth_Hz": 800.0,
+  "cc_Ki_ratio": 0.1,
+  "pll_wn_Hz": 20.0,
+  "pll_zeta": 0.707,
+  "dc_bandwidth_Hz": 15.0,
+  "dc_Ki_ratio": 0.2,
+  "q_bandwidth_Hz": 10.0,
+  "I_max_pu": 1.1
+ },
+ "device": {
+  "name": "Wolfspeed CAS300M12BM2 (1200 V, 300 A SiC MOSFET half-bridge, 62 mm)",
+  "Rds_25": 0.00417,
+  "Rds_150": 0.0072,
+  "Rds_ref_current": 300.0,
+  "Esw_ref_V": 600.0,
+  "Esw_ref_I": 300.0,
+  "Esw_T": [
+   25.0,
+   125.0,
+   150.0
+  ],
+  "Eon": [
+   0.0034,
+   0.003,
+   0.0029
+  ],
+  "Eoff": [
+   0.0034,
+   0.0034,
+   0.0035
+  ],
+  "Err": [
+   0.00204,
+   0.00217,
+   0.00218
+  ],
+  "Rth_jc_mos_typ": 0.075,
+  "Rth_jc_diode_typ": 0.076,
+  "Tvj_op_max": 150.0,
+  "Tc_max": 125.0
+ },
+ "thermal_fem": {
+  "_geometry_note": "Representative quarter-symmetry model of one 62 mm module on its heatsink section; layout is representative (die layout of the commercial module is not public). Rth_jc is calibrated to the datasheet.",
+  "n_mos_per_switch": 6,
+  "mos_die_mm": [
+   4.04,
+   6.44,
+   0.18
+  ],
+  "n_sbd_per_switch": 4,
+  "sbd_die_mm": [
+   4.0,
+   4.0,
+   0.18
+  ],
+  "baseplate_mm": [
+   106.0,
+   61.0,
+   3.0
+  ],
+  "dbc_mm": [
+   46.0,
+   52.0
+  ],
+  "dbc_cu_top_mm": 0.3,
+  "dbc_aln_mm": 0.635,
+  "dbc_cu_bot_mm": 0.3,
+  "die_attach_mm": 0.08,
+  "substrate_solder_mm": 0.15,
+  "tim_mm": 0.05,
+  "k_tim": 1.0,
+  "heatsink_footprint_mm": [
+   120.0,
+   80.0
+  ],
+  "heatsink_base_mm": 12.0,
+  "fin_count_full": 8,
+  "fin_thick_mm": 2.5,
+  "fin_height_mm": 35.0,
+  "h_nom": 40.0
+ },
+ "thermal_limits": {
+  "T_derate_ref": 125.0,
+  "T_alarm": 135.0
+ },
+ "sampling": {
+  "Ts_data": 1.0
+ }
+}

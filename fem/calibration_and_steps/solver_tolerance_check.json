@@ -1,0 +1,11 @@
+{
+ "case": "dur60_H1",
+ "ref": "rtol=1e-4, maxstep=2 s",
+ "test": "rtol=1e-3, maxstep=4 s",
+ "max_abs_diff_TjM_K": 0.1305,
+ "mean_abs_diff_TjM_K": 0.0055,
+ "wall_s": {
+  "ref": 437.3,
+  "test": 308.3
+ }
+}
