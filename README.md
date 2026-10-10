@@ -1,6 +1,6 @@
 # Thermal-history dataset for a grid-connected SiC photovoltaic inverter
 
-This repository contains the simulation data behind the manuscript "Thermal-History Ambiguity in Grid-Connected SiC Photovoltaic Inverters: Electrical Observability, Physics-Constrained Estimation and Uncertainty-Aware Derating" (under review).
+This repository contains the simulation data behind the manuscript "Thermal-History Ambiguity in Grid-Connected SiC Photovoltaic Inverters: Electrical Observability, Physics-Constrained Estimation and Uncertainty-Aware Derating".
 
 The plant is a 100 kW, 400 V, 50 Hz grid-following inverter with an LCL filter and three Wolfspeed CAS300M12BM2 half-bridge modules on a forced-air heatsink. Electrical behaviour was simulated in MATLAB/Simulink and the module and heatsink were modelled in COMSOL Multiphysics 6.4.
 
